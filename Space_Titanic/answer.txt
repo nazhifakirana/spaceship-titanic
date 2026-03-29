@@ -1,0 +1,2 @@
+https://github.com/nazhifakirana/spaceship-titanic-deployment
+https://asgmd-04-nn.streamlit.app
