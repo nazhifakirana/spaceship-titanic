@@ -1,6 +1,10 @@
 [project]
-name = "spaceship_titanic"
+name = "spaceship-titanic"
 version = "0.1.0"
-
-[tool.setuptools]
-packages = ["src"]
+dependencies = [
+    "streamlit>=1.32.0",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "joblib"
+]
