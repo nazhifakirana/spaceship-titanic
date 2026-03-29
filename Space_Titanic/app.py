@@ -1,8 +1,10 @@
+from src.feature_engineering import FeatureEngineering
 import streamlit as st
 import pandas as pd
 import joblib
 import sys
 import os
+
 sys.path.append(os.path.abspath("src"))
 
 model = joblib.load("models/logreg_pipeline.pkl")
