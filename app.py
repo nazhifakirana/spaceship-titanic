@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import sys
-import os
-from src.feature_engineering import FeatureEngineering
-sys.path.append(os.path.abspath("src"))
 
+# Load model
 model = joblib.load("models/logreg_pipeline.pkl")
 
 st.title("ASG 04 MD - Nazhifa - Spaceship Titanic Model Deployment")
